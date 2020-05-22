@@ -1,2 +1,2 @@
 pub mod deploy;
-// pub mod sm2;
+pub mod sm2;
