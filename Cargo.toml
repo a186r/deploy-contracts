@@ -7,9 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ethkey = "0.3"
-ethsign-crypto = "0.2.1"
+cita-web3 = { git = "https://github.com/citahub/cita-common", branch = "develop"}
 web3 = { git = "https://github.com/tomusdrw/rust-web3" }
 ethereum-tx-sign = "3.0.3"
 ethereum-types = "0.9.2"
 hex = "0.4.2"
+libsm = {git = "https://github.com/citahub/libsm.git"}

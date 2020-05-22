@@ -1,6 +1,5 @@
-use deploy_contracts::deploy_contract::*;
+use deploy_contracts::deploy::secp256k1::*;
 
 fn main() {
-    // send_raw_transaction();
-    deploy();
+    deploy_secp256k1();
 }
